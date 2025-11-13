@@ -30,7 +30,8 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 VisitorBoost Pro Server running on port ${PORT}`);
     console.log(`📱 Local: http://localhost:${PORT}`);
     console.log(`🌐 Network: http://YOUR_IP:${PORT}`);
-    console.log(`📊 Access from any device in your network!`);
+    console.log(`🔥 Using Real Proxies for Actual Views`);
+    console.log(`💡 Make sure to add your proxy API keys in config!`);
 });
 
 module.exports = app;
