@@ -12,7 +12,7 @@ const PORT = process.argv[2] || process.env.PORT || 3000;
 // Middleware
 app.use(helmet({
     contentSecurityPolicy: false,
-    crossOriginEmbedderPolicy: false
+    crossOriginEmbedderderPolicy: false
 }));
 app.use(cors());
 app.use(express.json());
@@ -32,7 +32,7 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 VisitorBoost Pro Server running on port ${PORT}`);
     console.log(`📱 Local: http://localhost:${PORT}`);
     console.log(`🌐 Network: http://YOUR_IP:${PORT}`);
-    console.log(`🔥 Real Proxy System Activated!`);
+    console.log(`🔥 Working Proxy System Activated!`);
     console.log(`💡 Using port: ${PORT} - Your chosen port!`);
 });
 
