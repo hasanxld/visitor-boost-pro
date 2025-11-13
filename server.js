@@ -26,9 +26,11 @@ app.get('/', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 VisitorBoost Pro Server running on port ${PORT}`);
-    console.log(`📱 Access via: http://localhost:${PORT}`);
+    console.log(`📱 Local: http://localhost:${PORT}`);
+    console.log(`🌐 Network: http://YOUR_IP:${PORT}`);
+    console.log(`📊 Access from any device in your network!`);
 });
 
 module.exports = app;
